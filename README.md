@@ -2,6 +2,9 @@
 
 A simple package for checking whether a folder is readonly or writable
 
+> [!WARNING]
+> This file is not finished
+
 ## Prerequisite
 
 Please make sure you have Rust compiler installed
