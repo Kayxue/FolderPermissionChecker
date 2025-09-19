@@ -11,7 +11,7 @@ Please make sure you have Rust compiler installed
 Worked on MacOS, haven't tested on other OS yet.
 
 ## Usage
-Please check files in example folder
+Please refer to files in example folder
 
 ## Contribution
 Welcome to contribute to this project. Feel free to open an issue or submit a pull request.
