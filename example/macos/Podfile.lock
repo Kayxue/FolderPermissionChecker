@@ -1,0 +1,22 @@
+PODS:
+  - FlutterMacOS (1.0.0)
+  - folder_permission_checker (0.0.1):
+    - FlutterMacOS
+
+DEPENDENCIES:
+  - FlutterMacOS (from `Flutter/ephemeral`)
+  - folder_permission_checker (from `Flutter/ephemeral/.symlinks/plugins/folder_permission_checker/macos`)
+
+EXTERNAL SOURCES:
+  FlutterMacOS:
+    :path: Flutter/ephemeral
+  folder_permission_checker:
+    :path: Flutter/ephemeral/.symlinks/plugins/folder_permission_checker/macos
+
+SPEC CHECKSUMS:
+  FlutterMacOS: d0db08ddef1a9af05a5ec4b724367152bb0500b1
+  folder_permission_checker: 14be2c2dfa2d56f43ef749168ba80bf7c04d252a
+
+PODFILE CHECKSUM: 54d867c82ac51cbd61b565781b9fada492027009
+
+COCOAPODS: 1.16.2
