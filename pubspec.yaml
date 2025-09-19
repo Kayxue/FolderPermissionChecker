@@ -1,7 +1,7 @@
 name: folder_permission_checker
 description: "A new Flutter FFI plugin project."
 version: 0.0.1
-homepage:
+repository: https://github.com/Kayxue/FolderPermissionChecker
 
 environment:
   sdk: ^3.9.0
