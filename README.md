@@ -3,7 +3,7 @@
 A simple package for checking whether a folder is readonly or writable
 
 > [!WARNING]
-> This file is not finished
+> This package hasn't been tested on other OS except MacOS, if you facing any problems, please open an issue.
 
 ## Prerequisite
 
