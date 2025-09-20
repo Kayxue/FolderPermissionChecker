@@ -14,7 +14,25 @@ Please make sure you have Rust compiler installed
 Worked on MacOS, haven't tested on other OS yet.
 
 ## Usage
-Please refer to files in example folder
+First, you need to initialize the module:
+```dart
+Future<void> main() async {
+  await FolderPermissionChecker.init();     //Add this line
+  runApp(const MyApp());
+}
+```
+
+Then you can use this module like this.
+
+```dart
+bool isReadonly = await FolderPermissionChecker.isReadonly('/some/path/or/file');
+print(isReadonly);
+```
+
+```dart
+bool isWritable = await FolderPermissionChecker.isDirectoryWritable("/some/path");
+print(isWritable);
+```
 
 ## Contribution
 Welcome to contribute to this project. Feel free to open an issue or submit a pull request.
