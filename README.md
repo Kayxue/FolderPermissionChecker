@@ -13,6 +13,8 @@ Please make sure you have Rust compiler installed
 
 Worked on MacOS, haven't tested on other OS yet.
 
+And for Android, maybe you need to give externel storage read/write permission for the package to work.
+
 ## Usage
 First, you need to initialize the module:
 ```dart
