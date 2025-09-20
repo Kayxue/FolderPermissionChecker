@@ -1,6 +1,6 @@
 name: folder_permission_checker
 description: "A Flutter plugin to check folder read/write permissions."
-version: 0.0.1
+version: 0.0.2
 repository: https://github.com/Kayxue/FolderPermissionChecker
 
 environment:

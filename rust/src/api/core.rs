@@ -11,7 +11,7 @@ pub fn is_readonly(path: String) -> Result<bool, Error> {
 #[flutter_rust_bridge::frb(positional)]
 pub fn is_directory_writable(path: String) -> Result<bool> {
     let metadata = fs::metadata(&path)?;
-    if metadata.is_file() {
+    if !metadata.is_dir() {
         return Err(Error::new(std::io::ErrorKind::Other, "Path is not a directory").into());
     }
     let path = Path::new(&path);
