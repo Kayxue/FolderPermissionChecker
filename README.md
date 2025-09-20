@@ -34,5 +34,7 @@ bool isWritable = await FolderPermissionChecker.isDirectoryWritable("/some/path"
 print(isWritable);
 ```
 
+You can see real Flutter usage example in example folder.
+
 ## Contribution
 Welcome to contribute to this project. Feel free to open an issue or submit a pull request.
